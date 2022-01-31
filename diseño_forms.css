@@ -1,0 +1,173 @@
+
+/** Globales **/
+
+html{
+    font-size: 62.5%; /* Reset para REMS - 62.5% = 10px de 16px */
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+
+/** Globales **/
+.contenedor{
+    max-width: 120rem; /*=1200px*/
+    margin: 0 auto 0 auto
+}
+
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    font-size: 3.4rem;
+}
+h3{
+    font-size: 3rem;
+}
+h4{
+    font-size: 2.6rem;
+}
+
+body{
+    background: no-repeat center top;
+    background-image: url(img/fondo_index.jpg);
+    
+    background-size:cover;
+    font-family: sans-serif;
+    min-height: max-content;
+    min-width: max-content;
+    margin: 0;
+    padding: 0;
+}
+
+.login-box{
+
+    width: 320px;
+    height: 440px;
+    background-color:rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 1rem;
+    
+}
+
+.login-box .avatar{
+    width: 110px;
+    height: 110px;
+    
+    border-radius: 70%;
+    position: absolute;
+    top: -11%;
+    left: calc(50% - 60px);
+    background-color: rgb(255, 255, 255);
+}
+
+.login-box h1{
+    
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    color: rgb(24, 114, 12);
+}
+.login-box h4{
+    font-weight: lighter;
+    margin: 0;
+    padding: 0 0 5px;
+    margin: 0 0 5px;
+    color: rgb(187, 187, 187);
+    text-align: center;
+   
+  
+}
+
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid rgb(18, 34, 11);
+    background: transparent;
+    outline: none;
+    height: 40px;
+}
+
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(21, 78, 33);
+    color: aliceblue;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover{
+   
+    background: rgb(59, 122, 43);
+ 
+}
+
+.login-box a{
+    
+    font-size: small;
+    text-decoration: none;
+    line-height: 20px;
+    color: rgb(107, 107, 107);
+    
+}
+.login-box a:hover{
+    color: rgb(21, 56, 23);
+    
+}
+
+/*-----------------------------REGISTER---------------------------------------*/
+.login-box2{
+    margin-top: 2rem;
+    padding-top: 5rem;
+    width: 520px;
+    height: 600px;
+    border-radius: 1.2rem;
+}
+
+.form_registerñ{
+    display: flex;
+}
+
+.login-box3{
+    margin-top: 2rem;
+    padding-top: 5rem;
+    width: 520px;
+    height: 600px;
+    border-radius: 1.2rem;
+}
+.login-box2 h4{
+    margin-top: 1rem;
+    font-size: 2rem; 
+    padding-bottom: 1.5rem;
+}
+.login-box3 h4{
+    margin-top: 1rem;
+    font-size: 2.5rem; 
+    padding-bottom: 1.5rem;
+}
+
+
+
+b{
+    font-size: 1.2rem;
+    color: rgb(104, 116, 101);
+}
+
+

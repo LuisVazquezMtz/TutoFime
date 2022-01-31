@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="diseño_forms.css">
+</head>
+<body>
+        <div class="login-box"> 
+            <img src="img/logo.png" alt="logo Tutofime" class="avatar">
+            <h1>Tutofime</h1>
+            <h4>Inciar sesión</h4>
+
+
+            <form action="conexionL.php" method="POST">
+                <!--USERNAME-->
+                <label for="username">Nombre de usuario</label>
+                <input type="text" name="usuario" placeholder="Usuario">
+                <!--PASSWORD-->
+                <label for="password"Contraseña>Constraseña</label>
+                <input type="password" name="password" placeholder="Contraseña">
+
+                <input type="submit" name="login" value="Iniciar sesión">
+
+                <a href="register.html" class="register">Aun no tengo una cuenta</a> <br>
+                <a href="index.html">Volver a inicio</a>
+
+
+            </form>
+
+
+       </div>
+
+
+</body>
+</html>
